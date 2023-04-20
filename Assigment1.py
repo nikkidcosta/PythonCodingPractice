@@ -1,3 +1,6 @@
+num_elements = int(input("Enter the number of elements: "))
+elements = []
+
 for i in range(num_elements):
     element = input("Enter element {}: ".format(i+1))
     elements.append(element)
